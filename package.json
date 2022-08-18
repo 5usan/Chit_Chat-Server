@@ -1,0 +1,26 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "Chit Chat Server",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/5usan/Chit_Chat-Server.git"
+  },
+  "author": "susan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/5usan/Chit_Chat-Server/issues"
+  },
+  "homepage": "https://github.com/5usan/Chit_Chat-Server#readme",
+  "dependencies": {
+    "socket.io": "^4.5.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
